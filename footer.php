@@ -5,6 +5,7 @@
 			<?php include('creer-partie.php'); ?>
 			<?php include('rejoindre-partie.php'); ?>
 			
+		</section>
 	</body>
 </html>
 				

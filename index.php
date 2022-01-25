@@ -49,8 +49,6 @@
             </div>
 		</div>
 
-		
-
 		<div id="jures" class="bloc">
 			<h3>Mes cartes Juré</h3>
 			<?php foreach ($partie->joueur as $joueur): ?>	
@@ -78,6 +76,17 @@
 					</div>
 				<?php endif; ?>
 			<?php endforeach; ?>
+		</div>
+
+		<div class="bloc">
+			<h3>Les fiches d'enquête</h3>
+			<p>Ne cliquer que lorsque les cartes Jurées l'autorisent.</p>
+			<ul>
+				<li><a href="./img/<?php echo $_SESSION["scenario"]; ?>/fiche-1.jpg" target="_blank">Fiche d'enquête 1</a></li>
+				<li><a href="./img/<?php echo $_SESSION["scenario"]; ?>/fiche-2.jpg" target="_blank">Fiche d'enquête 2</a></li>
+				<li><a href="./img/<?php echo $_SESSION["scenario"]; ?>/fiche-3.jpg" target="_blank">Fiche d'enquête 3</a></li>
+				<li><a href="./img/<?php echo $_SESSION["scenario"]; ?>/fiche-4.jpg" target="_blank">Fiche d'enquête 4</a></li>
+			</ul>
 		</div>
 
 		<?php foreach ($partie->joueur as $joueur): ?>	

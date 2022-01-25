@@ -1,4 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="croque-mort.xls" ?>
 <parties>
+  <partie nom="dQ37f" resultat="0">
+    <joueur nom="Riri" id="riri" orga="1" vote="0">
+      <carte id="3" etat="1"/>
+      <carte id="6" etat="0"/>
+      <carte id="9" etat="0"/>
+      <carte id="12" etat="0"/>
+    </joueur>
+    <joueur nom="Fifi" id="fifi" orga="0" vote="0">
+      <carte id="1" etat="0"/>
+      <carte id="4" etat="0"/>
+      <carte id="7" etat="0"/>
+      <carte id="10" etat="0"/>
+    </joueur>
+    <joueur nom="Loulou" id="loulou" orga="0" vote="0">
+      <carte id="2" etat="0"/>
+      <carte id="5" etat="0"/>
+      <carte id="8" etat="0"/>
+      <carte id="11" etat="0"/>
+    </joueur>
+  </partie>
 </parties>
